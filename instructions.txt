@@ -1,0 +1,8 @@
+1. Upload hov.css to the root
+2. <!-- Hov -->
+		<link rel="stylesheet" type="text/css" href="<?php echo cxGetHomeUrl(); ?>theme_full/scripts/hov.css" />
+into your header.php
+3. Code looks like this:
+<a alt="alt title here" href="#"><img alt="alt title here" class="grow" src="image.png" /></a>
+
+Just change the "grow" to any class you see on the hov that you wish to use. 
